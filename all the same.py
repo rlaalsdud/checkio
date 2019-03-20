@@ -3,7 +3,7 @@ from typing import List, Any
 
 def all_the_same(elements: List[Any]) -> bool:
    #처음 값의 개수와 전체 elements의 개수가 같으면 True
-   count = 0
+   count = 0 
    if elements == []:
        return True
    
