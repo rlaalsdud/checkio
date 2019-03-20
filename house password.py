@@ -2,7 +2,7 @@ def checkio(data: str) -> bool:
     if len(data) < 10:
         return False
     if data.upper() == data:
-        return False
+        return False 
     if data.lower() == data:
         return False
     return any(c.isdigit() for c in data)
